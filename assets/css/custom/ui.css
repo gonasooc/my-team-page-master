@@ -1,0 +1,276 @@
+.only-en {
+  font-family: 'Poppins', sans-serif;
+}
+
+.f-pt-serif {
+  font-family: 'PT Serif', serif;
+}
+
+.f-mont {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.l-center {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@media all and (max-width: 600px) {
+  .l-center {
+    width: 100%;
+    padding: 0 12px;
+  }
+}
+
+.sec-introduction {
+  padding: 110px 0 0 0;
+}
+
+@media all and (max-width: 600px) {
+  .sec-introduction {
+    padding: 71px 0 134px 0;
+  }
+}
+
+.sec-introduction .txt-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 96px;
+}
+
+@media all and (max-width: 600px) {
+  .sec-introduction .txt-wrap {
+    display: block;
+    margin-bottom: 70px;
+  }
+}
+
+.sec-introduction .txt-wrap .left-wrap .tit {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+@media all and (max-width: 600px) {
+  .sec-introduction .txt-wrap .left-wrap .tit {
+    font-size: 3.6rem;
+    margin-bottom: 38px;
+  }
+}
+
+.sec-introduction .txt-wrap .right-wrap {
+  padding-right: 50px;
+}
+
+.sec-introduction .txt-wrap .right-wrap .sub-tit {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+@media all and (max-width: 600px) {
+  .sec-introduction .txt-wrap .right-wrap .sub-tit {
+    font-size: 1.8rem;
+  }
+}
+
+.sec-introduction .txt-wrap .right-wrap .dec {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+@media all and (max-width: 600px) {
+  .sec-introduction .txt-wrap .right-wrap .dec {
+    font-size: 1.4rem;
+  }
+}
+
+.sec-introduction .img-group-wrap .img-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sec-introduction .img-group-wrap .img-list {
+  width: 238px;
+  margin-right: 93px;
+  margin-bottom: 132px;
+}
+
+@media all and (max-width: 600px) {
+  .sec-introduction .img-group-wrap .img-list {
+    width: 40%;
+    margin-right: 40px;
+    margin-bottom: 64px;
+  }
+}
+
+.sec-introduction .img-group-wrap .img-list:nth-child(2) {
+  -webkit-transform: translateY(70px);
+          transform: translateY(70px);
+}
+
+@media all and (max-width: 600px) {
+  .sec-introduction .img-group-wrap .img-list:nth-child(2) {
+    margin-right: 0;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+
+.sec-introduction .img-group-wrap .img-list:nth-child(2) .img-wrap:after {
+  content: "ART DIRECTOR";
+  display: inline-block;
+}
+
+.sec-introduction .img-group-wrap .img-list:nth-child(3) {
+  margin-right: 0;
+}
+
+@media all and (max-width: 600px) {
+  .sec-introduction .img-group-wrap .img-list:nth-child(3) {
+    margin-right: 40px;
+  }
+}
+
+.sec-introduction .img-group-wrap .img-list:nth-child(3) .img-wrap:after {
+  content: "TECH LEAD";
+  display: inline-block;
+}
+
+.sec-introduction .img-group-wrap .img-list:nth-child(4) .img-wrap:after {
+  content: "UX DESIGNER";
+  display: inline-block;
+}
+
+@media all and (max-width: 600px) {
+  .sec-introduction .img-group-wrap .img-list:nth-child(4) {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    margin-right: 0;
+  }
+}
+
+.sec-introduction .img-group-wrap .img-list:nth-child(5) {
+  -webkit-transform: translateY(70px);
+          transform: translateY(70px);
+}
+
+@media all and (max-width: 600px) {
+  .sec-introduction .img-group-wrap .img-list:nth-child(5) {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.sec-introduction .img-group-wrap .img-list:nth-child(5) .img-wrap:after {
+  content: "DEVELOPER";
+  display: inline-block;
+}
+
+.sec-introduction .img-group-wrap .img-list:last-child {
+  margin-right: 0;
+}
+
+.sec-introduction .img-group-wrap .img-list:last-child .img-wrap:after {
+  content: "DEVELOPER";
+  display: inline-block;
+}
+
+@media all and (max-width: 600px) {
+  .sec-introduction .img-group-wrap .img-list:last-child {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+
+.sec-introduction .img-group-wrap .img-wrap {
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+@media all and (max-width: 600px) {
+  .sec-introduction .img-group-wrap .img-wrap {
+    margin-bottom: 10px;
+  }
+}
+
+.sec-introduction .img-group-wrap .img-wrap:after {
+  content: "PRODUCT OWNER";
+  display: inline-block;
+  font-family: 'PT Serif', serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  position: absolute;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: -20px;
+}
+
+@media all and (max-width: 600px) {
+  .sec-introduction .img-group-wrap .img-wrap:after {
+    font-size: 1rem;
+  }
+}
+
+.sec-introduction .img-group-wrap .img-wrap .img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: bottom;
+}
+
+.sec-introduction .img-group-wrap .name-wrap .name {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+@media all and (max-width: 600px) {
+  .sec-introduction .img-group-wrap .name-wrap .name {
+    font-size: 1.4rem;
+  }
+}
+
+.cc-footer {
+  padding: 24px 0;
+}
+
+.cc-footer .ft-info {
+  text-align: center;
+  font-weight: 500;
+  color: #A9A9A9;
+  font-size: 0.875rem;
+}
+
+@media all and (max-width: 600px) {
+  .cc-footer .ft-info {
+    font-size: 1.4rem;
+  }
+}
+
+.cc-footer .ft-info .bold-txt {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+@media all and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=ui.css.map */
